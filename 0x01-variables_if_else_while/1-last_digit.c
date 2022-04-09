@@ -3,7 +3,7 @@ i#include <stdio.h>
 #include <time.h>
 /**
  * main - Entry point
- * Description: Printresults based on the last digit of n
+ * Description: Print results based on last digit of n
  * Return: 0
  */
 int main(void)
@@ -22,5 +22,5 @@ int main(void)
 	else
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, j);
 
-	return (0)
+	return (0);
 }
